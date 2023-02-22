@@ -1,0 +1,373 @@
+# Material list for latest spigot version: https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Material.html
+# EntityType list for latest spigot version: https://hub.spigotmc.org/javadocs/spigot/org/bukkit/entity/EntityType.html
+# Attribute list for latest spigot version: https://hub.spigotmc.org/javadocs/spigot/org/bukkit/attribute/Attribute.html
+# Potion effects list for latest spigot version: https://hub.spigotmc.org/javadocs/spigot/org/bukkit/potion/PotionEffectType.html
+# Random UUID generator: https://www.uuidgenerator.net/
+# Color codes: https://docs.adventure.kyori.net/minimessage.html#format
+
+
+caveblock:
+  displayname: <#D5D6D8>Cave Block
+  material: PAPER
+  Pack:
+    generate_model: false # because this is a block, a 2nd model pointing to specified one will be generated anyway
+    model: default/caveblock
+    custom_model_data: 1
+  Mechanics:
+    noteblock:
+      block_sounds:
+        break_sound: block.glass.break
+        place_sound: block.glass.place
+      custom_variation: 0
+      model: default/caveblock
+      hardness: 1
+      drop:
+        silktouch: false # enable if you want to cancel loots and drop the block when a silktouch pickaxe is used
+        loots:
+        - oraxen_item: caveblock
+          probability: 1.0
+clickforinfo:
+  displayname: <gray>clickforinfo
+  material: PAPER
+  Pack:
+    generate_model: false
+    model: clickforinfo # Path to your json from Oraxen/pack/models
+    custom_model_data: 46
+minernpc:
+  displayname: <gray>MinerNPC
+  material: PAPER
+  Pack:
+    generate_model: false
+    model: minernpc # Path to your json from Oraxen/pack/models
+    custom_model_data: 30
+speedrunnersnpc:
+  displayname: <gray>SpeedrunnersNPC
+  material: PAPER
+  Pack:
+    generate_model: false
+    model: speedrunnersnpc # Path to your json from Oraxen/pack/models
+    custom_model_data: 32
+craftquestnpc:
+  displayname: <gray>CraftQuestNPC
+  material: PAPER
+  Pack:
+    generate_model: false
+    model: craftquestnpc # Path to your json from Oraxen/pack/models
+    custom_model_data: 33
+lifestealnpc:
+  displayname: <gray>LifestealNPC
+  material: PAPER
+  Pack:
+    generate_model: false
+    model: lifestealnpc # Path to your json from Oraxen/pack/models
+    custom_model_data: 31
+parkseat:
+  displayname: <gray>ParkSeat
+  material: PAPER
+  Pack:
+    generate_model: false
+    model: parkseat # Path to your json from Oraxen/pack/models
+    custom_model_data: 16
+trafficcone:
+  displayname: <gray>TrafficCone
+  material: PAPER
+  Pack:
+    generate_model: false
+    model: trafficcone # Path to your json from Oraxen/pack/models
+    custom_model_data: 945773
+shoppingcart:
+  displayname: <gray>ShoppingCart
+  material: PAPER
+  Pack:
+    generate_model: false
+    model: shoppingcart # Path to your json from Oraxen/pack/models
+    custom_model_data: 4
+specialproject:
+  displayname: <gray>Dildo
+  material: PAPER
+  Pack:
+    generate_model: false
+    model: specialproject # Path to your json from Oraxen/pack/models
+    custom_model_data: 15
+treesticks:
+  displayname: <gray>TreeSticks
+  material: PAPER
+  Pack:
+    generate_model: false
+    model: treesticks # Path to your json from Oraxen/pack/models
+    custom_model_data: 8
+bunting:
+  displayname: <gray>Bunting
+  material: PAPER
+  Pack:
+    generate_model: false
+    model: bunting # Path to your json from Oraxen/pack/models
+    custom_model_data: 6
+bunting2:
+  displayname: <gray>Bunting2
+  material: PAPER
+  Pack:
+    generate_model: false
+    model: bunting2 # Path to your json from Oraxen/pack/models
+    custom_model_data: 7
+lamp:
+  displayname: <gray>Lamp
+  material: PAPER
+  Pack:
+    generate_model: false
+    model: lamp # Path to your json from Oraxen/pack/models
+    custom_model_data: 5
+orangephone:
+  displayname: <gray>Phone
+  material: PAPER
+  Pack:
+    generate_model: false
+    model: orangephone # Path to your json from Oraxen/pack/models
+    custom_model_data: 8543356
+bluecar:
+  displayname: <gray>BlueCar
+  material: PAPER
+  Pack:
+    generate_model: false
+    model: bluecar # Path to your json from Oraxen/pack/models
+    custom_model_data: 14
+  Mechanics:
+    furniture:
+      barrier: true
+      drop: # useless if you are not using a barrier
+        silktouch: false
+        loots:
+        - oraxen_item: table
+          probability: 1.0
+yellowcar:
+  displayname: <gray>YellowCar
+  material: PAPER
+  Pack:
+    generate_model: false
+    model: yellowcar # Path to your json from Oraxen/pack/models
+    custom_model_data: 94384
+  Mechanics:
+    furniture:
+      barrier: true
+      drop: # useless if you are not using a barrier
+        silktouch: false
+        loots:
+        - oraxen_item: table
+          probability: 1.0
+redumbrella:
+  displayname: <gray>RedUmbrella
+  material: PAPER
+  Pack:
+    generate_model: false
+    model: redumbrella # Path to your json from Oraxen/pack/models
+    custom_model_data: 9
+  Mechanics:
+    furniture:
+      barrier: true
+      drop: # useless if you are not using a barrier
+        silktouch: false
+        loots:
+        - oraxen_item: table
+          probability: 1.0
+cashregister:
+  displayname: <gray>CashRegister
+  material: PAPER
+  Pack:
+    generate_model: false
+    model: cashregister # Path to your json from Oraxen/pack/models
+    custom_model_data: 92836
+laptop:
+  displayname: <gray>Laptop
+  material: PAPER
+  Pack:
+    generate_model: false
+    model: laptop # Path to your json from Oraxen/pack/models
+    custom_model_data: 534674
+  Mechanics:
+    furniture:
+      barrier: true
+      drop: # useless if you are not using a barrier
+        silktouch: false
+        loots:
+        - oraxen_item: laptop
+          probability: 1.0
+busstop:
+  displayname: <gray>BusStop
+  material: PAPER
+  Pack:
+    generate_model: false
+    model: busstop # Path to your json from Oraxen/pack/models
+    custom_model_data: 946585567
+bussign:
+  displayname: <gray>BusSign
+  material: PAPER
+  Pack:
+    generate_model: false
+    model: bussign # Path to your json from Oraxen/pack/models
+    custom_model_data: 93673645
+roadblock:
+  displayname: <gray>RoadBlock
+  material: PAPER
+  Pack:
+    generate_model: false
+    model: roadblock # Path to your json from Oraxen/pack/models
+    custom_model_data: 9099585
+bigbin:
+  displayname: <gray>BigBin
+  material: PAPER
+  Pack:
+    generate_model: false
+    model: bigbin # Path to your json from Oraxen/pack/models
+    custom_model_data: 45
+bricknetplus:
+  displayname: <gray>BrickNetplus
+  material: PAPER
+  Pack:
+    generate_model: false
+    model: haylenplus # Path to your json from Oraxen/pack/models
+    custom_model_data: 349323
+  Mechanics:
+    furniture:
+      barrier: true
+      drop: # useless if you are not using a barrier
+        silktouch: false
+        loots:
+        - oraxen_item: table
+          probability: 1.0
+invisible_item:
+  displayname: <white>
+  material: PAPER
+  Pack:
+    generate_model: true
+    parent_model: item/generated
+    textures:
+    - required/invisible
+    custom_model_data: 44
+mailbox:
+  displayname: <gray>MailBox
+  material: PAPER
+  Pack:
+    generate_model: false
+    model: mail1 # Path to your json from Oraxen/pack/models
+    custom_model_data: 69
+  Mechanics:
+    furniture:
+      barrier: true
+      drop: # useless if you are not using a barrier
+        silktouch: false
+        loots:
+        - oraxen_item: table
+          probability: 1.0
+robot:
+  displayname: <gray>Robot
+  material: PAPER
+  Pack:
+    generate_model: false
+    model: robot # Path to your json from Oraxen/pack/models
+    custom_model_data: 3
+  Mechanics:
+    furniture:
+      barrier: true
+      drop: # useless if you are not using a barrier
+        silktouch: false
+        loots:
+        - oraxen_item: table
+          probability: 1.0
+cart:
+  displayname: <gray>Cart
+  material: PAPER
+  Mechanics:
+    furniture:
+      facing: UP
+      barrier: true
+      drop: # useless if you are not using a barrier
+        silktouch: false
+        loots:
+        - oraxen_item: cart
+          probability: 1.0
+  Pack:
+    generate_model: false
+    model: default/cart
+    custom_model_data: 10
+
+chair:
+  displayname: <gray>Chair
+  material: PAPER
+  Mechanics:
+    furniture:
+      facing: UP
+      barrier: true
+      # this option requires barrier: true
+      seat:
+        height: 0
+        yaw: 0
+      # this option requires barrier: true
+      drop:
+        silktouch: false
+        loots:
+        - oraxen_item: chair
+          probability: 1.0
+  Pack:
+    generate_model: false
+    model: default/chair
+    custom_model_data: 11
+
+coach:
+  displayname: <gray>Coach
+  material: PAPER
+  Mechanics:
+    furniture:
+      facing: UP
+      barriers:
+      - x: 0
+        y: 0
+        z: 0
+      - x: 0
+        y: 0
+        z: 1
+      - x: 0
+        y: 0
+        z: 2
+      - x: 1
+        y: 0
+        z: 0
+      - x: 1
+        y: 0
+        z: 1
+      - x: 1
+        y: 0
+        z: 2
+      drop: # useless if you are not using a barrier
+        silktouch: false
+        loots:
+        - oraxen_item: coach
+          probability: 1.0
+  Pack:
+    generate_model: false
+    model: default/coach
+    custom_model_data: 12
+
+shelf:
+  displayname: <gray>Shelf
+  material: PAPER
+  Mechanics:
+    furniture:
+      rotation: NONE
+      barrier: false
+      drop: # useless if you are not using a barrier
+        silktouch: false
+        loots:
+        - oraxen_item: shelf
+          probability: 1.0
+  Pack:
+    generate_model: false
+    model: default/shelf
+    custom_model_data: 13
+
+yellowbus:
+  displayname: <gray>YellowBus
+  material: PAPER
+  Pack:
+    generate_model: false
+    model: yellowbus # Path to your json from Oraxen/pack/models
+    custom_model_data: 2

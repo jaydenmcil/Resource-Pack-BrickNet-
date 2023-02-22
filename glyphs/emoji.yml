@@ -1,0 +1,147 @@
+heart:
+  texture: default/chat/heart
+  ascent: 8
+  height: 8
+  chat:
+    placeholders:
+    - <3
+    permission: oraxen.emoji.default
+  code: 42008
+logoemoji:
+  texture: required/logo
+  ascent: 55
+  height: 55
+  chat:
+    placeholders:
+    - ':logoemoji:'
+    permission: oraxen.emoji.admin
+  code: 42009
+logobanner:
+  texture: required/bricknetpaidbanner
+  ascent: 32
+  height: 72
+  chat:
+    placeholders:
+    - ':logobanneremoji:'
+    permission: oraxen.emoji.admin
+  code: 4334434346563
+logobannerbossbar:
+  texture: required/bricknetpaidbanner
+  ascent: 15
+  height: 60
+  chat:
+    placeholders:
+    - ':logobannerbossbaremoji:'
+    permission: oraxen.emoji.admin
+  code: 43344433444434346563
+smalllogo:
+  texture: required/logo
+  ascent: 5
+  height: 29
+  chat:
+    placeholders:
+    - ':smalllogoemoji:'
+    permission: oraxen.emoji.admin
+  code: 5678587342
+skyblockemoji:
+  texture: required/skyblockemoji
+  ascent: 8
+  height: 10
+  chat:
+    placeholders:
+    - ':skyblockemoji:'
+    permission: oraxen.emoji.admin
+  code: 42010
+lifestealemoji:
+  texture: required/lifestealemoji
+  ascent: 8
+  height: 10
+  chat:
+    placeholders:
+    - ':lifestealemoji:'
+    permission: oraxen.emoji.admin
+  code: 42011
+gamemenulogo:
+  texture: required/gamemenulogo
+  ascent: 31
+  height: 64
+  chat:
+    placeholders:
+    - ':gamemenulogo:'
+    permission: oraxen.emoji.default
+  code: 42013
+smpemoji:
+  texture: required/smp
+  ascent: 8
+  height: 10
+  chat:
+    placeholders:
+    - ':smpemoji:'
+    permission: oraxen.emoji.default
+  code: 42014
+lifestealbig:
+  texture: required/lifestealemoji
+  ascent: 8
+  height: 60
+  chat:
+    placeholders:
+    - ':lifestealbig:'
+    permission: oraxen.emoji.admin
+  code: 42015
+chaticon:
+  texture: required/chaticon
+  ascent: 8
+  height: 10
+  chat:
+    placeholders:
+    - ':chaticon:'
+    permission: oraxen.emoji.admin
+  code: 42017
+announcementlogo:
+  texture: required/logo
+  ascent: 8
+  height: 30
+  chat:
+    placeholders:
+    - ':announcementlogo:'
+    permission: oraxen.emoji.admin
+  code: 42019
+totemofundying:
+  texture: required/factionsicon
+  ascent: 9
+  height: 10
+  chat:
+    placeholders:
+    - ':totemofundying:'
+    permission: oraxen.emoji.default
+  code: 42025
+blankscreen:
+  texture: required/blankscreen
+  ascent: 90
+  height: 100000
+  code: 985468756869
+bluescreen:
+  texture: required/bluescreen
+  ascent: 60
+  height: 9000
+  code: 68097809780
+haylenstudios:
+  texture: required/haylenstudios
+  ascent: 8
+  height: 25
+  code: 458789789789
+gamebucks:
+  texture: required/gamebucks
+  ascent: 8
+  height: 9
+  code: 8678567567587970
+lootcoin:
+  texture: required/lootcoin
+  ascent: 8
+  height: 9
+  code: 42012
+friends:
+  texture: required/friends
+  ascent: 8
+  height: 8
+  code: 879879870908

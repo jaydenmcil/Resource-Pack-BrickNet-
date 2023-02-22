@@ -1,0 +1,247 @@
+# Simply deleting this file will make the plugin fail to load
+# Make sure you delete all entries found in other files
+# For example, language file uses logo glyph
+logo:
+  texture: required/logo
+  ascent: 20
+  height: 36
+  code: 42029
+
+menu_banner:
+  texture: required/ui/menu_banner
+  ascent: -14
+  height: 256
+  code: 42030
+
+menu_recipe:
+  texture: required/recipe_showcase
+  ascent: 40
+  height: 164
+  code: 42031
+
+menu_items:
+  texture: required/ui/menu_items
+  ascent: 37
+  height: 256
+  code: 42032
+
+menu_items_overlay:
+  texture: required/ui/menu_items_gems
+  ascent: 37
+  height: 256
+  code: 42033
+gamemenuinterface:
+  texture: required/gamemenuinterface
+  ascent: 13
+  height: 256
+  code: 42034
+socialmenuinterface:
+  texture: required/socialmenuinterface
+  ascent: 13
+  height: 256
+  code: 42035
+gameoptions:
+  texture: required/gameoptions
+  ascent: 13
+  height: 256
+  code: 42036
+kitsinterface:
+  texture: required/kitsinterface
+  ascent: 13
+  height: 256
+  code: 42037
+kitsinterface2:
+  texture: required/kitsinterface2
+  ascent: 13
+  height: 256
+  code: 42038
+generalinterface_4:
+  texture: required/generalinterface_4
+  ascent: 13
+  height: 256
+  code: 42039
+generalinterface_5:
+  texture: required/generalinterface_5
+  ascent: 13
+  height: 256
+  code: 42040
+friendsinterface:
+  texture: required/friendsinterface
+  ascent: 13
+  height: 256
+  code: 42041
+partyinterface:
+  texture: required/partyinterface
+  ascent: 13
+  height: 256
+  code: 42042
+pafsettingsinterface:
+  texture: required/pafsettingsinterface
+  ascent: 13
+  height: 256
+  code: 42043
+friendrequestsinterface:
+  texture: required/friendrequestsinterface
+  ascent: 13
+  height: 256
+  code: 42044
+cosmeticsmainmenu:
+  texture: required/cosmeticsmainmenu
+  ascent: 13
+  height: 256
+  code: 42045
+cosmeticspetsmenu:
+  texture: required/cosmeticspetsmenu
+  ascent: 13
+  height: 256
+  code: 97456456734
+cosmeticsgeneralinterface:
+  texture: required/cosmeticsgeneralinterface
+  ascent: 13
+  height: 256
+  code: 56786796789869
+cosmeticssettingsinterface:
+  texture: required/cosmeticssettingsinterface
+  ascent: 13
+  height: 256
+  code: 96875878
+gameoptionsinterface:
+  texture: required/gameoptionsinterface
+  ascent: 13
+  height: 256
+  code: 96354865465
+lotteryinterface:
+  texture: required/lotteryinterface
+  ascent: 13
+  height: 256
+  code: 4690754674
+sellguiinterface:
+  texture: required/sellguiinterface
+  ascent: 13
+  height: 256
+  code: 840567456
+shopmainmenuinterface:
+  texture: required/shopmainmenuinterface
+  ascent: 13
+  height: 256
+  code: 457546875789679
+rewardsinterface:
+  texture: required/rewardsinterface
+  ascent: 13
+  height: 256
+  code: 5478756845768768
+dailyrewardsinterface:
+  texture: required/dailyrewardsinterface
+  ascent: 13
+  height: 256
+  code: 857645756867986
+shopinterface_6:
+  texture: required/shopinterface_6
+  ascent: 13
+  height: 256
+  code: 438054345435345
+shopinterface_5:
+  texture: required/shopinterface_5
+  ascent: 13
+  height: 256
+  code: 389043823333
+shopinterface_4:
+  texture: required/shopinterface_4
+  ascent: 13
+  height: 256
+  code: 778783245642
+shopinterface_3:
+  texture: required/shopinterface_3
+  ascent: 13
+  height: 256
+  code: 437863256267237623
+shopbuyscreen:
+  texture: required/shopbuyscreen
+  ascent: 13
+  height: 256
+  code: 489574676587
+auctionsinterface:
+  texture: required/auctionsinterface
+  ascent: 13
+  height: 256
+  code: 8568679869
+lootchestinterface:
+  texture: required/lootchestinterface
+  ascent: 13
+  height: 256
+  code: 789908908908
+multiplechestsinterface:
+  texture: required/multiplechestsinterface
+  ascent: 13
+  height: 256
+  code: 94576458578
+chestconfirmopen:
+  texture: required/chestconfirmopen
+  ascent: 13
+  height: 256
+  code: 4895756858
+multipleboxesconfirm:
+  texture: required/multipleboxesconfirm
+  ascent: 13
+  height: 256
+  code: 8678679869
+chestcraftinginterface:
+  texture: required/chestcraftinginterface
+  ascent: 13
+  height: 256
+  code: 8458956
+giftinventoryinterface:
+  texture: required/giftinventoryinterface
+  ascent: 13
+  height: 256
+  code: 89356879
+animationsinterface:
+  texture: required/animationsinterface
+  ascent: 13
+  height: 256
+  code: 5876987078
+taxiinterface:
+  texture: required/taxiinterface
+  ascent: 13
+  height: 256
+  code: 986785685867
+storeconfirmpurchase:
+  texture: required/storeconfirmpurchase
+  ascent: 13
+  height: 256
+  code: 86785686548
+storemain:
+  texture: required/storemain
+  ascent: 13
+  height: 256
+  code: 4675678658
+storecategories:
+  texture: required/storecategories
+  ascent: 13
+  height: 256
+  code: 634589546345656
+brickwarsarenas:
+  texture: required/brickwarsarenas
+  ascent: 13
+  height: 256
+  code: 6354764555444466
+streamerinterface:
+  texture: required/streamerinterface
+  ascent: 13
+  height: 256
+  code: 68578759798790
+adminconfirm:
+  texture: required/adminconfirm
+  ascent: 13
+  height: 256
+  code: 68578754656666
+warpsinterface:
+  texture: required/warpsinterface
+  ascent: 13
+  height: 256
+  code: 657457656888
+arenaoptionsgui:
+  texture: required/arenaoptionsgui
+  ascent: 13
+  height: 256
+  code: 657455678856758757677
