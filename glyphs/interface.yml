@@ -245,3 +245,8 @@ arenaoptionsgui:
   ascent: 13
   height: 256
   code: 657455678856758757677
+srgameoptions:
+  texture: required/srgameoptions
+  ascent: 13
+  height: 256
+  code: 65555335555555
